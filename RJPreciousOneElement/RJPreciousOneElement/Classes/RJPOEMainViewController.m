@@ -27,6 +27,10 @@
     [self.view addSubview:imageView];
     
     imageView.frame = self.view.bounds;
+    /*
+     如何发布自己的开源框架到CocoaPods:http://www.cocoachina.com/ios/20160301/15459.html
+     iOS组件化-私有podSpecs:https://www.jianshu.com/p/7e82f4f56b7e
+     */
 }
 
 @end
